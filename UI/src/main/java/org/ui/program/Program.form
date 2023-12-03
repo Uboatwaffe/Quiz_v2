@@ -18,7 +18,7 @@
       </component>
       <component id="721b8" class="javax.swing.JLabel" binding="what_to_do">
         <constraints>
-          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="What do you want to do?"/>
@@ -26,7 +26,7 @@
       </component>
       <component id="ef249" class="javax.swing.JButton" binding="tutorialButton" default-binding="true">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Tutorial"/>
@@ -34,7 +34,7 @@
       </component>
       <component id="36d66" class="javax.swing.JButton" binding="adminPanelButton" default-binding="true">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Admin panel"/>
@@ -42,29 +42,15 @@
       </component>
       <component id="f09ae" class="javax.swing.JButton" binding="startButton" default-binding="true">
         <constraints>
-          <grid row="0" column="1" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Start"/>
         </properties>
       </component>
-      <component id="caf3f" class="javax.swing.JButton" binding="closeButton" default-binding="true">
-        <constraints>
-          <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <minimum-size width="-1" height="80"/>
-            <preferred-size width="-1" height="80"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="Close"/>
-        </properties>
-      </component>
       <component id="7f89a" class="javax.swing.JButton" binding="creditsButton" default-binding="true">
         <constraints>
-          <grid row="4" column="2" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <minimum-size width="-1" height="80"/>
-            <preferred-size width="-1" height="80"/>
-          </grid>
+          <grid row="4" column="2" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Credits"/>
@@ -72,18 +58,18 @@
       </component>
       <component id="e066f" class="javax.swing.JButton" binding="infoButton" default-binding="true">
         <constraints>
-          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Info"/>
         </properties>
       </component>
-      <component id="fd9af" class="javax.swing.JLabel" binding="spacer">
+      <component id="caf3f" class="javax.swing.JButton" binding="closeButton" default-binding="true">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value=" "/>
+          <text value="Close"/>
         </properties>
       </component>
     </children>

@@ -1,6 +1,6 @@
 package org.ui;
 
-import org.ui.program.Program;
+import org.ui.program.admin.AdminPanel;
 
 import javax.swing.*;
 
@@ -33,6 +33,6 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Program::new);
+        SwingUtilities.invokeLater(AdminPanel::new);
     }
 }

@@ -1,4 +1,4 @@
-package org.ui.program;
+package org.ui.program.admin;
 
 import javax.swing.*;
 
@@ -8,22 +8,21 @@ import javax.swing.*;
  * @author Maciek
  * @version 0.1
  */
-public class Program extends JFrame {
+public class Log_in extends JFrame {
 
     private JPanel panel;
-    private JButton tutorialButton;
-    private JButton adminPanelButton;
-    private JButton startButton;
-    private JButton infoButton;
+    private JTextField loginField;
+    private JPasswordField passwordField;
+    private JButton logInButton;
     private JButton closeButton;
-    private JButton creditsButton;
-    private JLabel what_to_do;
-    private JLabel welcome_quiz;
+    private JLabel login;
+    private JLabel password;
+    private JLabel welcome;
 
     /**
      * Constructor
      */
-    public Program() {
+    public Log_in() {
         setContentPane(panel);
         setTitle("Quiz");
         setSize(540, 170);
