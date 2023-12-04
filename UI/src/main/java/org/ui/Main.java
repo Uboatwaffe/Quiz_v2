@@ -1,6 +1,6 @@
 package org.ui;
 
-import org.ui.program.admin.AdminPanel;
+import org.ui.program.admin.Delete_Q;
 
 import javax.swing.*;
 
@@ -33,6 +33,6 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AdminPanel::new);
+        SwingUtilities.invokeLater(Delete_Q::new);
     }
 }
