@@ -4,9 +4,9 @@
 
 Only versions with ✅ are supported with security
 
-|  Version | Supported          |
-| -------- | ------------------ |
-| v0.0.1   | ⛔                |
+| Version | Supported |
+|---------|-----------|
+| v0.0.1  | ⛔         |
 
 ## Reporting a Vulnerability
 
