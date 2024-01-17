@@ -2,6 +2,7 @@
     This is file that describes what have I done in this program.
     It was done by only one human.
     This file was made on 17.01.2024 at 11:51 CET time.
+    Have fun using it!
 -->
 
 # Quiz v2
