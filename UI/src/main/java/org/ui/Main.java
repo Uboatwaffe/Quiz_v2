@@ -1,6 +1,6 @@
 package org.ui;
 
-import org.ui.logging.Log_in;
+import org.ui.logging.Sign_up;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -59,6 +59,6 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Log_in::new);
+        SwingUtilities.invokeLater(Sign_up::new);
     }
 }

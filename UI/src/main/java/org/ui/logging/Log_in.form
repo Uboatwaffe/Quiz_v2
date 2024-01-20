@@ -24,7 +24,7 @@
           <text value="Username:"/>
         </properties>
       </component>
-      <component id="a893c" class="javax.swing.JFormattedTextField" binding="formattedTextField1" default-binding="true">
+      <component id="a893c" class="javax.swing.JFormattedTextField" binding="usernameTextField">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <minimum-size width="-1" height="25"/>
@@ -41,7 +41,7 @@
           <text value="Password:"/>
         </properties>
       </component>
-      <component id="5faf9" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+      <component id="5faf9" class="javax.swing.JPasswordField" binding="passwordField">
         <constraints>
           <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <minimum-size width="-1" height="25"/>

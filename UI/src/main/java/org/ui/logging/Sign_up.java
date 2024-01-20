@@ -8,25 +8,29 @@ import javax.swing.*;
  * @author Maciej
  * @version 0.1
  */
-public class Log_in extends JFrame {
+public class Sign_up extends JFrame {
 
     private JPanel panel;
     private JFormattedTextField usernameTextField;
-    private JPasswordField passwordField;
-    private JButton signUpButton;
+    private JFormattedTextField passwordTextField2;
+    private JFormattedTextField passwordTextField1;
     private JButton closeButton;
     private JLabel welcome;
     private JLabel username;
     private JLabel password;
-    private JLabel signup;
+    private JLabel password_repeat;
+    private JButton signupButton;
+    private JLabel error;
 
     /**
      * Constructor
      */
-    public Log_in() {
+    public Sign_up() {
+        error.setVisible(false);
+
         setContentPane(panel);
         setTitle("Quiz");
-        setSize(570, 250);
+        setSize(570, 300);
         setDefaultCloseOperation(HIDE_ON_CLOSE);
         setVisible(true);
         setResizable(false);
