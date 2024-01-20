@@ -46,7 +46,7 @@
                   </grid>
                 </constraints>
                 <properties>
-                  <text value="Start quiz!"/>
+                  <text value="Log in"/>
                 </properties>
               </component>
               <component id="56443" class="javax.swing.JButton" binding="exitButton" default-binding="true">
