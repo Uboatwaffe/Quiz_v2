@@ -1,6 +1,6 @@
 package org.ui;
 
-import org.ui.program.admin.AdminOther;
+import org.ui.program.admin.TableManagement;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -59,6 +59,6 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AdminOther::new);
+        SwingUtilities.invokeLater(TableManagement::new);
     }
 }
