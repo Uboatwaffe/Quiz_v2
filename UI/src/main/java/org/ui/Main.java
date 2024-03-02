@@ -1,6 +1,6 @@
 package org.ui;
 
-import org.ui.program.admin.TableManagement;
+import org.ui.program.admin.DeleteTable;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -59,6 +59,6 @@ public class Main extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(TableManagement::new);
+        SwingUtilities.invokeLater(DeleteTable::new);
     }
 }
