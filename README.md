@@ -1,5 +1,5 @@
 <!--
-    This is file that describes what have i done in this program
+    This is file that describes what have I done in this program
     It was done by only one human
 -->
 
